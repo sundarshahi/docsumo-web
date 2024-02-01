@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgTickIconGreen = props => <svg width={8} height={6} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path fillRule="evenodd" clipRule="evenodd" d="M7.81.09a.45.45 0 0 1 .098.64l-3.726 4.9a.956.956 0 0 1-1.316.189L.19 3.879a.45.45 0 0 1-.097-.64.478.478 0 0 1 .657-.095l2.677 1.94L7.153.185A.478.478 0 0 1 7.81.09Z" fill="#128100" /></svg>;
+export { SvgTickIconGreen as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNy44MS4wOWEuNDUuNDUgMCAwIDEgLjA5OC42NGwtMy43MjYgNC45YS45NTYuOTU2IDAgMCAxLTEuMzE2LjE4OUwuMTkgMy44NzlhLjQ1LjQ1IDAgMCAxLS4wOTctLjY0LjQ3OC40NzggMCAwIDEgLjY1Ny0uMDk1bDIuNjc3IDEuOTRMNy4xNTMuMTg1QS40NzguNDc4IDAgMCAxIDcuODEuMDlaIiBmaWxsPSIjMTI4MTAwIi8+PC9zdmc+";
