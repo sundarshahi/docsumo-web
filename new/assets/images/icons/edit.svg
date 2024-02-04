@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgEdit = props => <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M2.97 17.25V21h3.712l10.95-11.06-3.713-3.75L2.97 17.25zM20.503 7.04c.386-.39.386-1.02 0-1.41l-2.317-2.34a.979.979 0 0 0-1.396 0l-1.81 1.83 3.712 3.75 1.812-1.83z" fill="currentColor" fillRule="evenodd" /></svg>;
+export { SvgEdit as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIuOTcgMTcuMjVWMjFoMy43MTJsMTAuOTUtMTEuMDYtMy43MTMtMy43NUwyLjk3IDE3LjI1ek0yMC41MDMgNy4wNGMuMzg2LS4zOS4zODYtMS4wMiAwLTEuNDFsLTIuMzE3LTIuMzRhLjk3OS45NzkgMCAwIDAtMS4zOTYgMEwxNC45OCA1LjEybDMuNzEyIDMuNzUgMS44MTItMS44M3oiIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+Cg==";

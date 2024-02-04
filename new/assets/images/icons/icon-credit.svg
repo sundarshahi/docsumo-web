@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgIconCredit = props => <svg width={20} height={20} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><circle cx={5} cy={8} r={4.25} stroke="#fff" strokeWidth={1.5} /><path d="M7.5 11.214a4.5 4.5 0 1 0 0-6.427" stroke="#fff" strokeWidth={1.35} /></svg>;
+export { SvgIconCredit as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNSIgY3k9IjgiIHI9IjQuMjUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41Ii8+CjxwYXRoIGQ9Ik03LjUgMTEuMjEzNkM4LjMxMTY5IDEyLjAwOTQgOS40MjM1NSAxMi41IDEwLjY1IDEyLjVDMTMuMTM1MyAxMi41IDE1LjE1IDEwLjQ4NTMgMTUuMTUgOEMxNS4xNSA1LjUxNDcyIDEzLjEzNTMgMy41IDEwLjY1IDMuNUM5LjQyMzU1IDMuNSA4LjMxMTY5IDMuOTkwNjQgNy41IDQuNzg2MzYiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS4zNSIvPgo8L3N2Zz4K";

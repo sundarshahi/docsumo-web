@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgChevronRight = props => <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M10.012 4.5 8.25 6.263 13.975 12 8.25 17.738l1.763 1.762 7.5-7.5z" fill="currentColor" fillRule="evenodd" /></svg>;
+export { SvgChevronRight as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEwLjAxMiA0LjVMOC4yNSA2LjI2MyAxMy45NzUgMTIgOC4yNSAxNy43MzhsMS43NjMgMS43NjIgNy41LTcuNXoiIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+Cg==";

@@ -1,0 +1,12 @@
+import * as React from "react";
+const SvgAlphanumeric = props => <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} {...props}><path style={{
+    fill: "none"
+  }} d="M0 0h24v24H0z" /><text transform="translate(12.001 14.001)" style={{
+    fill: "gray",
+    fontSize: 11,
+    fontFamily: "Lato-Heavy,Lato",
+    fontWeight: 800,
+    textDecoration: "underline"
+  }}><tspan x={-7.051} y={0}>{"A1"}</tspan></text></svg>;
+export { SvgAlphanumeric as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZGVmcz48c3R5bGU+LmF7ZmlsbDpub25lO30uYntmaWxsOmdyYXk7Zm9udC1zaXplOjExcHg7Zm9udC1mYW1pbHk6TGF0by1IZWF2eSwgTGF0bztmb250LXdlaWdodDo4MDA7dGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZTt9PC9zdHlsZT48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4zMDkgMC4yMjYpIj48cmVjdCBjbGFzcz0iYSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4zMDkgLTAuMjI2KSIvPjx0ZXh0IGNsYXNzPSJiIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMS42OTIgMTMuNzc1KSI+PHRzcGFuIHg9Ii03LjA1MSIgeT0iMCI+QTE8L3RzcGFuPjwvdGV4dD48L2c+PC9zdmc+";

@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgAdd = props => <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M21 13.286h-7.714V21h-2.572v-7.714H3v-2.572h7.714V3h2.572v7.714H21z" fill="currentColor" fillRule="evenodd" /></svg>;
+export { SvgAdd as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIxIDEzLjI4NmgtNy43MTRWMjFoLTIuNTcydi03LjcxNEgzdi0yLjU3Mmg3LjcxNFYzaDIuNTcydjcuNzE0SDIxeiIgZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4K";

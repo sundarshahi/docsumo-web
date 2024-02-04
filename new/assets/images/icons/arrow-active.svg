@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgArrowActive = props => <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} fill="none" {...props}><path stroke="#A3A8B0" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m5 7.5 5 5 5-5" /><rect width={19} height={19} x={0.5} y={0.5} stroke="#4D61FC" rx={3.5} /></svg>;
+export { SvgArrowActive as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjQTNBOEIwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41IiBkPSJtNSA3LjUgNSA1IDUtNSIvPjxyZWN0IHdpZHRoPSIxOSIgaGVpZ2h0PSIxOSIgeD0iLjUiIHk9Ii41IiBzdHJva2U9IiM0RDYxRkMiIHJ4PSIzLjUiLz48L3N2Zz4=";

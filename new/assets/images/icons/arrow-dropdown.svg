@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgArrowDropdown = props => <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}><path d="m7 10 5 5 5-5z" fill="currentColor" fillRule="evenodd" /></svg>;
+export { SvgArrowDropdown as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTcgMTBsNSA1IDUtNXoiIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+Cg==";

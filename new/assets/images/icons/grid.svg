@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgGrid = props => <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M3 3v18h18V3H3zm8 16H5v-6h6v6zm0-8H5V5h6v6zm8 8h-6v-6h6v6zm0-8h-6V5h6v6z" fill="currentColor" fillRule="evenodd" /></svg>;
+export { SvgGrid as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTMgM3YxOGgxOFYzSDN6bTggMTZINXYtNmg2djZ6bTAtOEg1VjVoNnY2em04IDhoLTZ2LTZoNnY2em0wLThoLTZWNWg2djZ6IiBmaWxsPSJjdXJyZW50Q29sb3IiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPgo=";

@@ -1,0 +1,15 @@
+import * as React from "react";
+const SvgRightArrowTt = props => <svg xmlns="http://www.w3.org/2000/svg" width={14.314} height={8.592} {...props}><path transform="translate(1 4.388)" style={{
+    fill: "none",
+    stroke: "#fff",
+    strokeLinecap: "round",
+    strokeWidth: 2
+  }} d="M0 0h11.898" /><path d="m15899.1 2542.4 2.883 2.882-2.883 2.882" transform="translate(-15888.669 -2540.988)" style={{
+    strokeLinejoin: "round",
+    fill: "none",
+    stroke: "#fff",
+    strokeLinecap: "round",
+    strokeWidth: 2
+  }} /></svg>;
+export { SvgRightArrowTt as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNC4zMTQiIGhlaWdodD0iOC41OTIiIHZpZXdCb3g9IjAgMCAxNC4zMTQgOC41OTIiPjxkZWZzPjxzdHlsZT4uYSwuYntmaWxsOm5vbmU7c3Ryb2tlOiNmZmY7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLXdpZHRoOjJweDt9LmJ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO308L3N0eWxlPjwvZGVmcz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxIDEuNDE0KSI+PGxpbmUgY2xhc3M9ImEiIHgyPSIxMS44OTgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMi45NzQpIi8+PHBhdGggY2xhc3M9ImIiIGQ9Ik0xNTg5OS4xLDI1NDIuNGwyLjg4MywyLjg4Mi0yLjg4MywyLjg4MiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE1ODg5LjY2OSAtMjU0Mi40MDIpIi8+PC9nPjwvc3ZnPg==";

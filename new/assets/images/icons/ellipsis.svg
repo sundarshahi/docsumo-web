@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgEllipsis = props => <svg width={20} height={20} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><circle cx={9.582} cy={4.25} r={1.25} fill="currentColor" fillRule="evenodd" /><circle cx={9.582} cy={10.083} r={1.25} fill="currentColor" fillRule="evenodd" /><circle cx={9.582} cy={15.916} r={1.25} fill="currentColor" fillRule="evenodd" /></svg>;
+export { SvgEllipsis as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOS41ODIwMyIgY3k9IjQuMjUiIHI9IjEuMjUiIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIi8+CjxjaXJjbGUgY3g9IjkuNTgyMDMiIGN5PSIxMC4wODMiIHI9IjEuMjUiIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIi8+CjxjaXJjbGUgY3g9IjkuNTgyMDMiIGN5PSIxNS45MTYiIHI9IjEuMjUiIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=";

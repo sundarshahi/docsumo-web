@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgIconNumber = props => <svg width={18} height={18} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M15 10.5h-3.225l.547-3H15A.75.75 0 1 0 15 6h-2.408l.518-2.857a.751.751 0 0 0-.63-.893.75.75 0 0 0-.915.615L11.002 6h-2.91l.518-2.857a.75.75 0 0 0-.63-.893.75.75 0 0 0-.915.615L6.502 6H3a.75.75 0 0 0 0 1.5h3.225l-.547 3H3A.75.75 0 1 0 3 12h2.407l-.517 2.857a.75.75 0 0 0 .63.893.749.749 0 0 0 .915-.615L6.998 12h2.91l-.518 2.857a.75.75 0 0 0 .63.893.749.749 0 0 0 .915-.615L11.498 12H15a.75.75 0 1 0 0-1.5Zm-7.725 0 .547-3h2.903l-.547 3H7.274Z" fill="currentColor" /></svg>;
+export { SvgIconNumber as ReactComponent };
+export default __webpack_public_path__ + "images/icon-number.f55eae41fb886587f561.svg";

@@ -1,0 +1,8 @@
+import * as React from "react";
+const SvgString = props => <svg xmlns="http://www.w3.org/2000/svg" width={20.034} height={16} {...props}><defs><style>{".string_svg__a{fill:gray}"}</style></defs><path className="string_svg__a" d="M.034.999h11v14h-11zM15.034.999h5v14h-5zM13.034 0h1v16h-1z" /><path className="string_svg__a" d="M11.034 0h4v1h-4zM11.034 15h4v1h-4z" /><text transform="translate(0 8.439)" style={{
+    fill: "#fff",
+    fontSize: 2,
+    fontFamily: "Lato-Regular,Lato"
+  }}><tspan x={0} y={0}>{"\u201CA1b\u201D"}</tspan></text></svg>;
+export { SvgString as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC4wMzQiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyMC4wMzQgMTYiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOmdyYXk7fS5ie2ZpbGw6I2ZmZjtmb250LXNpemU6MnB4O2ZvbnQtZmFtaWx5OkxhdG8tUmVndWxhciwgTGF0bzt9PC9zdHlsZT48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMDQ4IDAuNDU1KSI+PHJlY3QgY2xhc3M9ImEiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wODIgMC41NDQpIi8+PHJlY3QgY2xhc3M9ImEiIHdpZHRoPSI1IiBoZWlnaHQ9IjE0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNS4wODIgMC41NDQpIi8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTEuMzA4IDApIj48cmVjdCBjbGFzcz0iYSIgd2lkdGg9IjEiIGhlaWdodD0iMTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEuNzc0IC0wLjQ1NSkiLz48cmVjdCBjbGFzcz0iYSIgd2lkdGg9IjQiIGhlaWdodD0iMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMjI2IC0wLjQ1NSkiLz48cmVjdCBjbGFzcz0iYSIgd2lkdGg9IjQiIGhlaWdodD0iMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMjI2IDE0LjU0NSkiLz48L2c+PHRleHQgY2xhc3M9ImIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDQ4IDcuOTg0KSI+PHRzcGFuIHg9IjAiIHk9IjAiPuKAnEExYuKAnTwvdHNwYW4+PC90ZXh0PjwvZz48L3N2Zz4=";

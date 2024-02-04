@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgErrorIcon = props => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} {...props}><path d="M8 16a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8Zm-.8-5.6V12h1.6v-1.6Zm0-6.4v4.8h1.6V4Z" fill="#d0021b" data-name="Icon 24px" /></svg>;
+export { SvgErrorIcon as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8ZyBpZD0iaWNfZXJyb3IiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjMxOCAtMS4zMTgpIj4KICAgIDxnIGlkPSJJY29uXzI0cHgiIGRhdGEtbmFtZT0iSWNvbiAyNHB4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjA0MiAxLjA0MikiPgogICAgICA8cGF0aCBpZD0iU2hhcGUiIGQ9Ik04LDE2YTgsOCwwLDEsMSw4LThBOC4wMDksOC4wMDksMCwwLDEsOCwxNlptLS44LTUuNlYxMkg4LjhWMTAuNFpNNy4yLDRWOC44SDguOFY0WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4yNzYgMC4yNzYpIiBmaWxsPSIjZDAwMjFiIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K";

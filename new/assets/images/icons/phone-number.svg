@@ -1,0 +1,8 @@
+import * as React from "react";
+const SvgPhoneNumber = props => <svg xmlns="http://www.w3.org/2000/svg" width={21} height={21} {...props}><path style={{
+    fill: "none"
+  }} d="M0 0h21v21H0z" /><path d="m17.467 39.195-3.427-1.767a.726.726 0 0 0-.915.192l-1.235 1.575a11.532 11.532 0 0 1-4.9-4.918l1.554-1.213a.721.721 0 0 0 .192-.915l-1.764-3.407a.726.726 0 0 0-1.043-.277L3.8 29.892a1.536 1.536 0 0 0-.617 1.341 10.941 10.941 0 0 0 .234 1.7 13.877 13.877 0 0 0 3.747 6.174 14.073 14.073 0 0 0 6.174 3.747 10.6 10.6 0 0 0 1.7.234 1.448 1.448 0 0 0 1.341-.681l1.384-2.15a.768.768 0 0 0-.296-1.062Z" transform="translate(-.749 -24.276)" style={{
+    fill: "gray"
+  }} /></svg>;
+export { SvgPhoneNumber as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMSIgdmlld0JveD0iMCAwIDIxIDIxIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDpub25lO30uYntmaWxsOmdyYXk7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMzY0IC0wLjQxMikiPjxyZWN0IGNsYXNzPSJhIiB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjM2NCAwLjQxMikiLz48cGF0aCBjbGFzcz0iYiIgZD0iTTE3LjQ2NywzOS4xOTUsMTQuMDQsMzcuNDI4YS43MjYuNzI2LDAsMCwwLS45MTUuMTkyTDExLjg5LDM5LjE5NWExMS41MzIsMTEuNTMyLDAsMCwxLTQuOS00LjkxOGwxLjU1NC0xLjIxM2EuNzIxLjcyMSwwLDAsMCwuMTkyLS45MTVMNi45NzIsMjguNzQyYS43MjYuNzI2LDAsMCwwLTEuMDQzLS4yNzdMMy44LDI5Ljg5MmExLjUzNiwxLjUzNiwwLDAsMC0uNjE3LDEuMzQxLDEwLjk0MSwxMC45NDEsMCwwLDAsLjIzNCwxLjcsMTMuODc3LDEzLjg3NywwLDAsMCwzLjc0Nyw2LjE3NCwxNC4wNzMsMTQuMDczLDAsMCwwLDYuMTc0LDMuNzQ3LDEwLjYsMTAuNiwwLDAsMCwxLjcuMjM0LDEuNDQ4LDEuNDQ4LDAsMCwwLDEuMzQxLS42ODFsMS4zODQtMi4xNUEuNzY4Ljc2OCwwLDAsMCwxNy40NjcsMzkuMTk1WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEzIC0yMy44NjQpIi8+PC9nPjwvc3ZnPg==";

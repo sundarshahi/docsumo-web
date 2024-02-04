@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgOldLine = props => <svg width={47} height={2} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path opacity={0.3} d="M.043.904h46.523" stroke="#4D61FC" strokeWidth={1.565} /></svg>;
+export { SvgOldLine as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDciIGhlaWdodD0iMiIgdmlld0JveD0iMCAwIDQ3IDIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIG9wYWNpdHk9IjAuMyIgZD0iTTAuMDQyOTY4OCAwLjkwNDI5N0w0Ni41NjU3IDAuOTA0Mjk2IiBzdHJva2U9IiM0RDYxRkMiIHN0cm9rZS13aWR0aD0iMS41NjUzNCIvPgo8L3N2Zz4K";

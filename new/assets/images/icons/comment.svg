@@ -1,0 +1,6 @@
+import * as React from "react";
+const SvgComment = props => <svg xmlns="http://www.w3.org/2000/svg" width={14.606} height={13.438} {...props}><path d="M12.6-1.332H2.008A2.01 2.01 0 0 0 0 .676v6.481a2.01 2.01 0 0 0 2 2.008v2.941l4.227-2.941H12.6a2.01 2.01 0 0 0 2.008-2.008V.676A2.01 2.01 0 0 0 12.6-1.332ZM10.7 6.2H3.909v-.856H10.7Zm0-1.826H3.909v-.856H10.7Zm0-1.826H3.909v-.856H10.7Zm0 0" transform="translate(0 1.332)" style={{
+    fill: "gray"
+  }} /></svg>;
+export { SvgComment as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNC42MDYiIGhlaWdodD0iMTMuNDM4IiB2aWV3Qm94PSIwIDAgMTQuNjA2IDEzLjQzOCI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6Z3JheTt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik0xMi42LTEuMzMySDIuMDA4QTIuMDEsMi4wMSwwLDAsMCwwLC42NzZWNy4xNTdBMi4wMSwyLjAxLDAsMCwwLDIsOS4xNjV2Mi45NDFMNi4yMjcsOS4xNjVIMTIuNmEyLjAxLDIuMDEsMCwwLDAsMi4wMDgtMi4wMDhWLjY3NkEyLjAxLDIuMDEsMCwwLDAsMTIuNi0xLjMzMlpNMTAuNyw2LjJIMy45MDlWNS4zNDRIMTAuN1ptMC0xLjgyNkgzLjkwOVYzLjUxOEgxMC43Wm0wLTEuODI2SDMuOTA5VjEuNjkySDEwLjdabTAsMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAxLjMzMikiLz48L3N2Zz4=";
