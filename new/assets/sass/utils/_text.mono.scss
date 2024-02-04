@@ -1,0 +1,70 @@
+$map-font-sizes: (
+  'xxs': var(--ds-fontSize-10),
+  'xs': var(--ds-fontSize-12),
+  'sm': var(--ds-fontSize-14),
+  'md': var(--ds-fontSize-16),
+  'lg': var(--ds-fontSize-18),
+);
+
+//Generate text size classes for xxs,xs,sm,md and lg
+//Example:
+//.text-md: {font-size: 16px;}
+@each $size-key, $size in $map-font-sizes {
+  .text-#{$size-key} {
+    font-size: #{$size};
+  }
+}
+
+//Generate text size classes for xxs,xs,sm,md and lg
+//Example:
+//.font-normal: {font-weight: normal;}
+
+$map-font-weights: (
+  'hairline': var(--ds-fontWeights-hairline),
+  'thin': var(--ds-fontWeights-thin),
+  'light': var(--ds-fontWeights-light),
+  'normal': var(--ds-fontWeights-normal),
+  'medium': var(--ds-fontWeights-medium),
+  'semibold': var(--ds-fontWeights-semibold),
+  'bold': var(--ds-fontWeights-bold),
+  'extrabold': var(--ds-fontWeights-extrabold),
+  'black': var(--ds-fontWeights-black),
+);
+
+@each $weight-key, $weight in $map-font-weights {
+  .font-#{$weight-key} {
+    font-weight: #{$weight};
+  }
+}
+
+// Generate text align utility classes
+// EXAMPLE
+// .text-center {
+//   text-align: center;
+// }
+$map-aligns: (left, right, center, justify);
+
+@each $align in $map-aligns {
+  .text-#{$align} {
+    text-align: #{$align};
+  }
+}
+
+//Generate transform align utility classes
+// EXAMPLE
+// .text-uppercase {
+//   text-transform: uppercase;
+// }
+$map-transforms: (lowercase, uppercase, capitalize);
+
+@each $transform in $map-transforms {
+  .text-#{$transform} {
+    text-transform: #{$transform};
+  }
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

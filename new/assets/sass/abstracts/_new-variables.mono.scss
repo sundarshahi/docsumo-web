@@ -1,0 +1,191 @@
+:root {
+  // Colors
+  --ds-clr-gray-100: #f6f6f6;
+  --ds-clr-gray-200: #fafafa;
+  --ds-clr-gray-300: #edeef0;
+  --ds-clr-gray-400: #dfe0e3;
+  --ds-clr-gray-500: #d0d2d6;
+  --ds-clr-gray-600: #c1c4ca;
+  --ds-clr-gray-700: #a3a8b0;
+  --ds-clr-gray-800: #6b7280;
+  --ds-clr-gray-900: #41444d;
+  --ds-clr-gray-1000: #111827;
+  --ds-clr-gray-1000-rgb: 17, 24, 39;
+
+  --ds-clr-brand-bd-dark: #2f2443;
+  --ds-clr-dark-purple-light: #8b8596;
+
+  --ds-clr-light-blue-300: #e3eff1;
+  --ds-clr-light-blue-500: #d2e5e9;
+  --ds-clr-light-blue-700: #c1dce0;
+  --ds-clr-light-blue-900: #b0d2d8;
+
+  --ds-clr-tea-green-300: #ecf4e0;
+  --ds-clr-tea-green-500: #e0edcd;
+  --ds-clr-tea-green-700: #d5e7ba;
+  --ds-clr-tea-green-900: #c9e0a8;
+
+  --ds-clr-pink-lavendar-300: #ecdde3;
+  --ds-clr-pink-lavendar-500: #e3cdd6;
+  --ds-clr-pink-lavendar-700: #dabcc8;
+  --ds-clr-pink-lavendar-900: #d1acbb;
+
+  --ds-clr-pale-string-300: #f1f1de;
+  --ds-clr-pale-string-500: #e9e9cc;
+  --ds-clr-pale-string-700: #e2e2ba;
+  --ds-clr-pale-string-900: #dadaa8;
+
+  --ds-clr-wild-blue-300: #e0e4f4;
+  --ds-clr-wild-blue-500: #cdd4ed;
+  --ds-clr-wild-blue-700: #bac3e7;
+  --ds-clr-wild-blue-900: #a8b3e0;
+
+  --ds-clr-deep-champagne-300: #fdefe0;
+  --ds-clr-deep-champagne-500: #fbe3c8;
+  --ds-clr-deep-champagne-700: #fad6b0;
+  --ds-clr-deep-champagne-900: #f8ca98;
+
+  --ds-clr-dutch-white-300: #f4eee0;
+  --ds-clr-dutch-white-500: #ede4cd;
+  --ds-clr-dutch-white-700: #e7d9ba;
+  --ds-clr-dutch-white-900: #e0cfa8;
+
+  --ds-clr-powder-blue-300: #e0f0ee;
+  --ds-clr-powder-blue-500: #cfe8e5;
+  --ds-clr-powder-blue-700: #bedfdb;
+  --ds-clr-powder-blue-900: #acd7d2;
+
+  --ds-clr-orange-200: #ffe5c8;
+  --ds-clr-orange-400: #d18028;
+
+  --ds-clr-periwinkle: #d6e0ff;
+  --ds-clr-athens-gray: #e8eaed;
+
+  --ds-clr-info: #4096ff;
+  --ds-clr-info-rgb: 64, 150, 255;
+
+  --ds-clr-error: #c70011;
+  --ds-clr-error-rgb: 199, 0, 17;
+  --ds-clr-error-hover: #f1c0c5;
+  --ds-clr-error-200: #f6d6d9;
+  --ds-clr-error-700: #a3000e;
+  --ds-clr-error-800: #8f000c;
+
+  --ds-clr-success: #389e0d;
+  --ds-clr-success-200: #dfefd8;
+  --ds-clr-success-rgb: 56, 158, 13;
+  --ds-clr-success-200: #dfefd8;
+  --ds-clr-success-hover: #cae4be;
+
+  --ds-clr-warning: #ef922e;
+  --ds-clr-warning-200: #fdf2e6;
+  --ds-clr-warning-300: #ffe5c8;
+  --ds-clr-warning-rgb: 239, 156, 46;
+
+  --ds-clr-primary: #4d61fc;
+  --ds-clr-primary-rgb: 77, 97, 252;
+  --ds-clr-primary-hover: #273cdd;
+  --ds-clr-primary-lighter: #f1f2ff;
+  --ds-clr-primary-lightest: #f8f8fa;
+  --ds-clr-primary-light-gray: #f1f5f6;
+
+  --ds-clr-secondary: #e5e8ff;
+  --ds-clr-secondary-hover: #f2f4ff;
+  --ds-clr-secondary-hover-lighter: #f4f5fc;
+
+  --ds-clr-bg-primary: #180c2e;
+  --ds-clr-bg-primary-rgb: rgba(24, 12, 46, 0.8);
+  --ds-clr-bg-secondary: #fbfcff;
+  --ds-clr-white: #ffffff;
+  --ds-clr-black: #000000;
+
+  --ds-clr-placeholder: #c1c4ca;
+
+  // Spreadsheet specific colors
+  --ds-clr-selection: #e5e8ff;
+  --ds-clr-highlight: rgba(var(--ds-clr-success-rgb), 0.75);
+
+  //Font Sizes
+  --ds-fontSize-48: 3rem;
+  --ds-fontSize-40: 2.5rem;
+  --ds-fontSize-36: 2.25rem;
+  --ds-fontSize-32: 2rem;
+  --ds-fontSize-28: 1.75rem;
+  --ds-fontSize-24: 1.5rem;
+  --ds-fontSize-20: 1.25rem;
+  --ds-fontSize-18: 1.125rem;
+  --ds-fontSize-16: 1rem;
+  --ds-fontSize-14: 0.875rem;
+  --ds-fontSize-12: 0.75rem;
+  --ds-fontSize-10: 0.625rem;
+
+  //font weights
+  --ds-fontWeights-hairline: 100;
+  --ds-fontWeights-thin: 200;
+  --ds-fontWeights-light: 300;
+  --ds-fontWeights-normal: 400;
+  --ds-fontWeights-medium: 500;
+  --ds-fontWeights-semibold: 600;
+  --ds-fontWeights-bold: 700;
+  --ds-fontWeights-extrabold: 800;
+  --ds-fontWeights-black: 900;
+
+  // Font family
+  --ds-font-family-primary: 'Libre Baskerville', serif;
+  --ds-font-family-secondary: 'Inter', sans-serif;
+
+  //spacing
+  --ds-spacing-1: 0.25rem;
+  --ds-spacing-2: 0.5rem;
+  --ds-spacing-3: 0.75rem;
+  --ds-spacing-4: 1rem;
+  --ds-spacing-5: 1.25rem;
+  --ds-spacing-6: 1.5rem;
+  --ds-spacing-7: 1.75rem;
+  --ds-spacing-8: 2rem;
+  --ds-spacing-9: 2.25rem;
+  --ds-spacing-10: 2.5rem;
+  --ds-spacing-11: 2.75rem;
+  --ds-spacing-12: 3rem;
+
+  //Box Shadow
+  --ds-shadow-50: 0rem 0rem 0.75rem 0.25rem rgba(0, 0, 0, 0.15);
+  --ds-shadow-100: 0rem 0rem 0.375rem rgba(0, 0, 0, 0.02),
+    0rem 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
+  --ds-shadow-200: 0rem 0rem 0.25rem rgba(0, 0, 0, 0.04),
+    0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.06);
+  --ds-shadow-300: 0rem 0rem 0.25rem rgba(0, 0, 0, 0.04),
+    0rem 0.5rem 1rem rgba(0, 0, 0, 0.08);
+  --ds-shadow-400: 0rem 0.5rem 0.875rem rgba(132, 132, 132, 0.2);
+
+  //Base Variables
+  --ds-base-clr-headline: var(--ds-clr-gray-1000);
+  --ds-base-clr-text: var(--ds-clr-gray-900);
+  --ds-base-clr-bg: var(--ds-clr-white);
+  --ds-base-font-family: 'Inter', sans-serif;
+  --ds-base-font-size: var(--ds-fontSize-14);
+  --ds-base-font-weight: var(--ds-fontWeights-normal);
+  --ds-base-line-height: 1.3;
+  --ds-base-clr-text-muted: var(--ds-clr-gray-800);
+
+  // Default value
+  --ds-header-height: 3.75rem;
+  --ds-sidebar-width: 16.5625rem;
+  --ds-sidebar-width--small: 4.4rem;
+  --ds-page-footer-height: 3.75rem;
+  --ds-review-sidebar-width: 26.25rem;
+
+  --ds-zIndex-tabs: 101;
+  --ds-Zindex-sidebar: 1000;
+  --ds-zIndex-new-dropdown: 1000;
+  --ds-zIndex-upload-progress-overlay: 1000;
+  --ds-zIndex-modal: 1050;
+  --ds-zIndex-loader-overlay: 2000;
+  --ds-zIndex-dark-overlay: 1040;
+  --ds-zindex-notificationCenter: 1100;
+  --ds-zindex-review-screen: 1000;
+  --ds-zIndex-review-sidebar: 1006;
+  --ds-zIndex-review-table-footer: 1005;
+  --ds-zIndex-header: 1007;
+  --ds-banner-height: 2.25rem;
+}

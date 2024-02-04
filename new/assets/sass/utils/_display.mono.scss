@@ -1,0 +1,22 @@
+//Generates display utility classes
+//Example::
+// .d-block {
+//     display: block;
+//   }
+$map-displays: (
+  none,
+  block,
+  flex,
+  table,
+  inline-flex,
+  inline-block,
+  inline,
+  table-row,
+  table-cell
+);
+
+@each $display in $map-displays {
+  .d-#{$display} {
+    display: #{$display};
+  }
+}

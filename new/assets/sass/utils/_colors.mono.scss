@@ -1,0 +1,97 @@
+$map-colors: (
+  gray-100: var(--ds-clr-gray-100),
+  gray-200: var(--ds-clr-gray-200),
+  gray-300: var(--ds-clr-gray-300),
+  gray-400: var(--ds-clr-gray-400),
+  gray-500: var(--ds-clr-gray-500),
+  gray-600: var(--ds-clr-gray-600),
+  gray-700: var(--ds-clr-gray-700),
+  gray-800: var(--ds-clr-gray-800),
+  gray-900: var(--ds-clr-gray-900),
+  gray-1000: var(--ds-clr-gray-1000),
+  brand-bd-dark: var(--ds-clr-brand-bd-dark),
+  light-blue-300: var(--ds-clr-light-blue-300),
+  light-blue-500: var(--ds-clr-light-blue-500),
+  light-blue-700: var(--ds-clr-light-blue-700),
+  light-blue-900: var(--ds-clr-light-blue-900),
+  tea-green-300: var(--ds-clr-tea-green-300),
+  tea-green-500: var(--ds-clr-tea-green-500),
+  tea-green-700: var(--ds-clr-tea-green-700),
+  tea-green-900: var(--ds-clr-tea-green-900),
+  pink-lavendar-300: var(--ds-clr-pink-lavendar-300),
+  pink-lavendar-500: var(--ds-clr-pink-lavendar-500),
+  pink-lavendar-700: var(--ds-clr-pink-lavendar-700),
+  pink-lavendar-900: var(--ds-clr-pink-lavendar-900),
+  pale-string-300: var(--ds-clr-pale-string-300),
+  pale-string-500: var(--ds-clr-pale-string-500),
+  pale-string-700: var(--ds-clr-pale-string-700),
+  pale-string-900: var(--ds-clr-pale-string-900),
+  wild-blue-300: var(--ds-clr-wild-blue-300),
+  wild-blue-500: var(--ds-clr-wild-blue-500),
+  wild-blue-700: var(--ds-clr-wild-blue-700),
+  wild-blue-900: var(--ds-clr-wild-blue-900),
+  deep-champagne-300: var(--ds-clr-deep-champagne-300),
+  deep-champagne-500: var(--ds-clr-deep-champagne-500),
+  deep-champagne-700: var(--ds-clr-deep-champagne-700),
+  deep-champagne-900: var(--ds-clr-deep-champagne-900),
+  dutch-white-300: var(--ds-clr-dutch-white-300),
+  dutch-white-500: var(--ds-clr-dutch-white-500),
+  dutch-white-700: var(--ds-clr-dutch-white-700),
+  dutch-white-900: var(--ds-clr-dutch-white-900),
+  powder-blue-300: var(--ds-clr-powder-blue-300),
+  powder-blue-500: var(--ds-clr-powder-blue-500),
+  powder-blue-700: var(--ds-clr-powder-blue-700),
+  powder-blue-900: var(--ds-clr-powder-blue-900),
+  orange-200: var(--ds-clr-orange-200),
+  orange-400: var(--ds-clr-orange-400),
+  periwinkle: var(--ds-clr-periwinkle),
+  athens-gray: var(--ds-clr-athens-gray),
+  info: var(--ds-clr-info),
+  error: var(--ds-clr-error),
+  error-hover: var(--ds-clr-error-hover),
+  error-200: var(--ds-clr-error-200),
+  error-700: var(--ds-clr-error-700),
+  error-800: var(--ds-clr-error-800),
+  success: var(--ds-clr-success),
+  success-200: var(--ds-clr-success-200),
+  success-hover: var(--ds-clr-success-hover),
+  warning: var(--ds-clr-warning),
+  warning-200: var(--ds-clr-warning-200),
+  warning-rgb: var(--ds-clr-warning-rgb),
+  primary-rgb: var(--ds-clr-primary-rgb),
+  primary-hover: var(--ds-clr-primary-hover),
+  primary-lighter: var(--ds-clr-primary-lighter),
+  primary-lightest: var(--ds-clr-primary-lightest),
+  primary-light-gray: var(--ds-clr-primary-light-gray),
+  secondary: var(--ds-clr-secondary),
+  secondary-hover: var(--ds-clr-secondary-hover),
+  bg-primary: var(--ds-clr-bg-primary),
+  bg-secondary: var(--ds-clr-bg-secondary),
+  white: var(--ds-clr-white),
+  black: var(--ds-clr-black),
+  selection: var(--ds-clr-selection),
+  highlight: var(--ds-clr-highlight),
+  transparent: transparent,
+);
+
+//Generates color utility classes
+//Example::
+// .clr-primary {
+//     color: var(--ds-clr-primary)
+//   }
+@each $key, $value in $map-colors {
+  .clr-#{$key} {
+    color: #{$value};
+  }
+}
+
+//Generates background utility classes
+//Example::
+// .bg-primary {
+//     background: var(--ds-clr-primary)
+//   }
+@each $key, $value in $map-colors {
+  .bg-#{$key} {
+    background: #{$value};
+  }
+}

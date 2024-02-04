@@ -1,0 +1,30 @@
+// Generate shadows classes
+// EXAMPLE
+// .shadow-100 {
+//   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.02), 0px 2px 4px rgba(0, 0, 0, 0.08);
+// }
+$map-shadows: (
+  '100': (
+    0px 0px 6px rgba(0, 0, 0, 0.02),
+    0px 2px 4px rgba(0, 0, 0, 0.08),
+  ),
+  '200': (
+    0px 0px 4px rgba(0, 0, 0, 0.04),
+    0px 4px 8px rgba(0, 0, 0, 0.06),
+  ),
+  '300': (
+    0px 0px 4px rgba(0, 0, 0, 0.04),
+    0px 8px 16px rgba(0, 0, 0, 0.08),
+  ),
+);
+
+@each $key, $shadow-list in $map-shadows {
+  .shadow-#{$key} {
+    $box-shadow: ();
+
+    @each $shadow in $shadow-list {
+      $box-shadow: append($box-shadow, $shadow, $separator: comma);
+    }
+    box-shadow: $box-shadow;
+  }
+}

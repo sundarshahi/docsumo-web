@@ -1,0 +1,22 @@
+//Generate headings levels
+//Example:
+// .heading-1 {
+//   font-size: var(--ds-fontSize-40);
+//   font-weight: var(--ds-fontWeights-bold);
+// }
+$map-headings: (
+  1: var(--ds-fontSize-40),
+  2: var(--ds-fontSize-36),
+  3: var(--ds-fontSize-32),
+  4: var(--ds-fontSize-28),
+  5: var(--ds-fontSize-24),
+  6: var(--ds-fontSize-20),
+);
+
+@each $key, $font-size in $map-headings {
+  .heading-#{$key} {
+    font-size: $font-size;
+    font-weight: var(--ds-fontWeights-bold);
+    color: var(--ds-base-clr-headline);
+  }
+}

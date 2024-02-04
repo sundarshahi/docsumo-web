@@ -1,0 +1,71 @@
+// Define a map of flexbox properties and their possible values
+$flex-props: (
+  'align-content': (
+    'start': 'flex-start',
+    'end': 'flex-end',
+    'center': 'center',
+    'around': 'space-around',
+    'between': 'space-between',
+    'stretch': 'stretch',
+  ),
+  'align-items': (
+    'start': 'flex-start',
+    'end': 'flex-end',
+    'center': 'center',
+    'baseline': 'baseline',
+    'stretch': 'stretch',
+  ),
+  'align-self': (
+    'auto': 'auto',
+    'start': 'flex-start',
+    'end': 'flex-end',
+    'center': 'center',
+    'baseline': 'baseline',
+    'stretch': 'stretch',
+  ),
+  'justify-content': (
+    'start': 'flex-start',
+    'end': 'flex-end',
+    'center': 'center',
+    'around': 'space-around',
+    'between': 'space-between',
+    'evenly': 'space-evenly',
+  ),
+  'flex-direction': (
+    'row': 'row',
+    'row-reverse': 'row-reverse',
+    'column': 'column',
+    'column-reverse': 'column-reverse',
+  ),
+  'flex-wrap': (
+    'nowrap': 'nowrap',
+    'wrap': 'wrap',
+    'wrap-reverse': 'wrap-reverse',
+  ),
+  'flex': (
+    '1': '1 1 0%',
+    'auto': '1 1 auto',
+    'none': 'none',
+    'unset': 'unset'
+  ),
+  'order': (
+    '1': '1',
+    '2': '2',
+    '3': '3',
+    '4': '4',
+    '5': '5',
+    '6': '6',
+    '7': '7',
+    '8': '8',
+    '9': '9',
+    '10': '10',
+  ),
+);
+
+@each $prop, $values in $flex-props {
+  @each $key, $value in $values {
+    .#{$prop}-#{$key} {
+      #{$prop}: #{$value};
+    }
+  }
+}

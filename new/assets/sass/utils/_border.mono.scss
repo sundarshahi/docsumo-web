@@ -1,0 +1,20 @@
+// Define a map of border radius values
+$border-radius: (
+  '0': 0,
+  '4': 4px,
+  '5': 5px,
+  '6': 6px,
+  '8': 8px,
+  '10': 10px,
+  '12': 12px,
+  '16': 16px,
+  'half': 50%,
+  'full': 100%,
+);
+
+// Loop through the map and generate the utility class names
+@each $name, $value in $border-radius {
+  .border-radius-#{$name} {
+    border-radius: $value;
+  }
+}

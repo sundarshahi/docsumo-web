@@ -1,0 +1,62 @@
+//Inspiration: https://codepen.io/trufa/pen/PmjOYv/left
+//EXAMPLE - Bootstrap Grid https://getbootstrap.com/docs/5.0/layout/grid/
+$grid__cols: 12;
+
+$map-grid-props: (
+  '': 0,
+  '-md': $breakpoints-md,
+  '-lg': $breakpoints-lg,
+  '-xl': $breakpoints-xl,
+  '-xxl': $breakpoints-xxl,
+);
+
+@mixin create-mq($breakpoint, $min-or-max) {
+  @if ($breakpoint == 0) {
+    @content;
+  } @else {
+    @media screen and (#{$min-or-max}-width: ($breakpoint * 1px)) {
+      @content;
+    }
+  }
+}
+
+@mixin create-col-classes($modifier, $grid-cols, $breakpoint) {
+  @include create-mq($breakpoint, 'min') {
+    .col#{$modifier}-offset-0 {
+      margin-left: 0;
+    }
+    @for $i from 1 through $grid-cols {
+      .col#{$modifier}-#{$i} {
+        width: (100 / ($grid-cols / $i)) * 1%;
+        flex: 0 0 auto;
+      }
+      .col#{$modifier}-offset-#{$i} {
+        margin-left: (100 / ($grid-cols / $i)) * 1%;
+      }
+    }
+  }
+}
+
+@each $modifier, $breakpoint in $map-grid-props {
+  @if ($modifier == '') {
+    $modifier: '-xs';
+  }
+  @include create-mq($breakpoint - 1, 'max') {
+    .hidden#{$modifier}-down {
+      display: none !important;
+    }
+  }
+  @include create-mq($breakpoint, 'min') {
+    .hidden#{$modifier}-up {
+      display: none !important;
+    }
+  }
+}
+
+.row {
+  display: flex;
+
+  @each $modifier, $breakpoint in $map-grid-props {
+    @include create-col-classes($modifier, $grid__cols, $breakpoint);
+  }
+}
